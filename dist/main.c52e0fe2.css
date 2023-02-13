@@ -1,4 +1,4 @@
-*{margin: 0; padding: 0; font-family: 'Spoqa Han Sans Neo', 'sans-serif';}
+*{margin: 0; padding: 0; font-family: 'Noto Sans KR', sans-serif;}
 li{list-style: none;}
 a{text-decoration: none; color: black; }
 
@@ -81,7 +81,7 @@ a{text-decoration: none; color: black; }
 .light_img {
     width: 300px; height: 400px;
     float: right;
-    background-image: url(./images/light01.jpg);
+    background-image: url(/light01.2f3b2035.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 250%;
@@ -262,9 +262,9 @@ a{text-decoration: none; color: black; }
 
 .page03 {
     width: 100vw; height: 100vh;
-    background-image: url(./images/backgroundbanner02.jpg);
+    background-image: url(/backgroundbanner02.e542d4a2.jpg);
     background-repeat: no-repeat;
-    background-position-y: 150px;
+    background-position-y: 150px ;
     margin: 0 auto;
 }
 .project {
@@ -275,32 +275,20 @@ a{text-decoration: none; color: black; }
     text-align: left;
 }
 .self h1, .team h1 {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     margin-top: 20px;
 }
 .self, .team {
     width: 700px; height: 700px;
     float: left;
-    border: 1px solid #eee;
+    border: 1px solid black;
     background-color: white;
     box-sizing: border-box;
     margin-left: 78px;
     margin-top: 50px;
+    cursor: pointer;
     transition: all .3s ease-in-out;
-    overflow: hidden;
-    position: relative;
-}
-
-.slide {
-    width: 1400px; height: 630px;
-    position: absolute;
-    top: 60px; left: 0;
-    transition: left .5s ease-out;
-}
-.self01, .self02 {
-    float: left;
-    width: 700px;
 }
 .self:hover {
     transform: translateX(3px);
@@ -309,138 +297,6 @@ a{text-decoration: none; color: black; }
 .team:hover {
     transform: translateX(3px);
     box-shadow: 6px 6px 6px #999;
-}
-.self_box p {
-    width: 500px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-.self_box img {
-    width: 100%;
-}
-
-.btn_box {
-    width: 100%; 
-    text-align: center;
-}
-.project_txt {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.project_source {
-    background-color: #ccc;
-    color: black;
-    padding: 7px 15px;
-    border: 0;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.project_source:hover {
-    background-color: black;
-    color: #eee;
-}
-.project_mobile {
-    padding: 7px 15px;
-    border: 0;
-    background-color: black;
-    color: #eee;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-right: 30px;
-    cursor: pointer;
-}
-.project_mobile:hover {
-    background-color: #ccc;
-    color: black;
-}
-
-.project_web {
-    padding: 7px 25px;
-    border: 0;
-    background-color: black;
-    color: #eee;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-right: 30px;
-    cursor: pointer;
-}
-.project_web:hover {
-    background-color: #ccc;
-    color: black;
-}
-.btn_box span {
-    position:absolute;
-    background-color: transparent;
-    color: black;
-    text-align: center;
-    border-radius: 50%;
-    padding: 10px 20px;
-    top: 50%;
-    font-size: 40px;
-    cursor: pointer;
-}
-.prev {
-    left: 10px;
-}
-.next {
-    right: 10px;
-}
-.btn_box span:hover {
-    scale: 1.1;
-}
-
-.team01, .team02 {
-    width: 700px; 
-    float: left;
-} 
-.img_t img {
-    width: 50%;
-    border: 1px solid black;
-    box-sizing: border-box;
-    float: left;
-}
-
-.team_img {
-    width: 93%; height: 450px;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-.team_img div{
-    width: 200%; height: 450px;
-    position: absolute;
-    top: 0; left: 0;
-    transition: left .5s ease-out;
-}
-.btn_box2 span {
-    position:absolute;
-    background-color: transparent;
-    color: black;
-    text-align: center;
-    border-radius: 50%;
-    padding: 10px 20px;
-    top: 50%;
-    font-size: 40px;
-    cursor: pointer;
-}
-.prev2 {
-    left: 10px;
-}
-.next2 {
-    right: 10px;
-}
-.btn_box2 span:hover {
-    scale: 1.1;
-}
-.team_box p {
-    width: 500px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 20px;  
 }
 
 
@@ -452,7 +308,7 @@ a{text-decoration: none; color: black; }
     width: 100vw; height: 100vh;
     position: relative;
     overflow: hidden;
-   background-image: url(./images/contact_banner02.jpg);
+   background-image: url(/contact_banner02.782e33b3.jpg);
    background-repeat: no-repeat;
    background-position-y: 500px;
 }
@@ -520,3 +376,6 @@ a{text-decoration: none; color: black; }
 .top:hover {
     width: 80px;
 }
+
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */

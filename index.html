@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>김하경 포트폴리오</title>
-    <script src="./js/main.js" defer></script>
-    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-  <script src=""></script>
     <link rel="stylesheet" href="./css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <script src="./js/main.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <style>
-        /* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css); */
+         @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
     </style>
 </head>
 <body>
@@ -120,13 +118,60 @@
             <div class="self">
                 <h1>개인 프로젝트</h1>
                 <div class="self_box">
-                    <div class="self01"></div>
-                    <div class="self02"></div>
+                    <ul class="slide">
+                        <li class="self01">
+                            <img src="./images/self01.jpg" alt="">
+                            <p class="project_txt">기존 사이트의 불편함을 보완하여 HTML5/ CSS/ JavaScript/ JQuery를 이용하여 리뉴얼 하였습니다.</p>
+                            <div class="btn_box">
+                                <button class="project_mobile"  onClick="window.open('https://hagyeongk.github.io/project_mobile/')">Mobile</button>
+                                <button class="project_source" onClick="window.open('https://github.com/hagyeongk/project_mobile')" style="margin-right: 70px;">Source</button>
+                                <button class="project_web"  onClick="window.open('https://hagyeongk.github.io/project_web/')">Web</button>
+                                <button class="project_source" onClick="window.open('https://github.com/hagyeongk/project_web')">Source</button>
+                            </div>
+                        </li>
+                        <li class="self02">
+                            <img src="./images/self02.jpg" alt="">
+                            <p class="project_txt">React-router와 bootstrap, React-toolkit을 이용하여 홈페이지를 만들어보았습니다. (신제품 클릭시 Detail page, 장바구니 구현)</p>
+                            <div class="btn_box">
+                                <button class="project_web" onClick="window.open('https://hagyeongk.github.io/react03/')">Web</button>
+                                <button class="project_source"  onClick="window.open('https://github.com/hagyeongk/react03')">Source</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="btn_box">
+                        <span class="prev">&lang;</span>  
+                        <span class="next">&rang;</span>
+                    </div>
+
                 </div>
             </div>
 
             <div class="team">
                 <h1>팀 프로젝트</h1>
+
+                <div class="team_box">
+                    <ul class="slide2">
+                        <li class="team01">
+                            <div class="team_img">
+                                <div class="img_t">
+                                    <img src="./images/team04.jpg" alt="">
+                                    <img src="./images/team03.jpg" alt="">
+                                </div>
+                            </div>
+                            <p class="project_txt">기존 영화의 전당 사이트의 디자인과 사용성을 보완하여 반응형으로 리뉴얼 하였고, 그 중에서 아이디어스케치 구성을 담당 하였습니다.</p>
+                            <div class="btn_box">
+                                <button class="project_web"  onClick="window.open('https://hagyeongk.github.io/Team_project/')">Web</button>
+                                <button class="project_source" onClick="window.open('https://github.com/hagyeongk/project_web')">Source</button>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <div class="btn_box2">
+                        <span class="prev2">&lang;</span>  
+                        <span class="next2">&rang;</span>
+                    </div>
+
+                </div>
             </div>
 
         
@@ -140,7 +185,7 @@
             <div class="txt_box">
                 <p class="last">전구 하나로 넓은 공간 전체를 환하게 밝힐 수 없지만<br/>
                 여러개가 함께 있으면 온 주위가 환해 지듯이,<br/>
-                선배 가발자분들 옆에서 함께 빛낼 수 있도록<br/>
+                선배 개발자분들 옆에서 함께 빛낼 수 있도록<br/>
                 최선을 다하겠습니다!</p>
                 <h1 class="thx">소중한 시간 내주셔서 감사합니다!</h1>
             </div>
